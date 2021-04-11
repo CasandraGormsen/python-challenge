@@ -34,3 +34,7 @@ with open(poll_csv) as pollfile:
 
 
 print("Total Votes: "+str(total_votes))
+print("Khan: " + str(khan_votes))
+print("Correy: " + str(correy_votes))
+print("Li: " + str(li_votes))
+print("O'Tooley: " + str(otooley_votes))
