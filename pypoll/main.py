@@ -33,8 +33,8 @@ with open(poll_csv) as pollfile:
             otooley_votes +=1
 
 
-print("Total Votes: "+str(total_votes))
-print("Khan: " + str(khan_votes))
-print("Correy: " + str(correy_votes))
-print("Li: " + str(li_votes))
-print("O'Tooley: " + str(otooley_votes))
+print("Total Votes: " + str(total_votes))
+print("Khan: " + str(round((khan_votes/total_votes)*100,3)) +"00% ("+str(khan_votes)+")")
+print("Correy: " + str(round((correy_votes/total_votes)*100,3)) +"00% ("+str(correy_votes)+")")
+print("Li: " + str(round((li_votes/total_votes)*100,3)) +"00% ("+str(li_votes)+")")
+print("O'Tooley: "  + str(round((otooley_votes/total_votes)*100,3)) +"00% ("+str(otooley_votes)+")")
